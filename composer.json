@@ -1,0 +1,20 @@
+{
+	"name": "soju/yii2-yiimm",
+	"description": "Yii2 (simple) Media Manager",
+	"keywords": ["yii2", "media", "manager", "extension", "widget", "plupload"],
+	"homepage": "https://github.com/soju22/yii2-plupload",
+	"type": "yii2-extension",
+	"authors": [
+		{
+			"name": "soju",
+			"email": "soju22@gmail.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "dev-master",
+		"soju/yii2-plupload": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {"soju\\yiimm\\": ""}
+	}
+}
